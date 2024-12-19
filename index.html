@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About My Cat</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body id="body">
+    <header id="header">
+        <h1 class="title">Welcome to My Cat's Page</h1>
+        <nav id="navigation">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="pages/contact.html" class="nav-link">Contact</a></li>
+                <li><a href="pages/gallery.html" class="nav-link">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content">
+        <h2 class="subtitle">About My Cat</h2>
+        <img src="photo/cat_photo.jpg" alt="My Cat" class="cat-image center-image">
+        <div class="info-section">
+            <table id="cat-details" border="1" cellpadding="5" cellspacing="0">
+                <tr>
+                    <th>Name</th>
+                    <td>Whiskers</td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td>3 years</td>
+                </tr>
+                <tr>
+                    <th>Breed</th>
+                    <td>Maine Coon</td>
+                </tr>
+                <tr>
+                    <th>Hobbies</th>
+                    <td><em>Sleeping</em>, <em>eating</em>, and <em>chasing laser pointers</em>.</td>
+                </tr>
+            </table>
+            <h3 class="subtitle">Favorite Toys</h3>
+            <ul class="toy-list">
+                <li>Laser pointer</li>
+                <li>Stuffed mouse</li>
+                <li>Feather wand</li>
+            </ul>
+        </div>
+        <h3 class="subtitle">Share Your Thoughts</h3>
+        <form action="#" method="post" id="comment-form">
+            <label for="comments" class="form-label">Leave a comment about Whiskers:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your thoughts here..." class="text-area"></textarea><br>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </main>
+    <footer id="footer">
+        <p>&copy; 2024 My Cat's Portfolio</p>
+    </footer>
+</body>
+</html>
